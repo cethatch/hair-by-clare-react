@@ -21,7 +21,7 @@ function PageFooter() {
       <div id="footerMiddle">
         <div id="footerInfo">
           <p>Visit me at <a href="https://www.stemsalon.com/">Stem Salon</a>.</p>
-          <p>1698 Bonanza Street Walnut Creek, CA </p>
+          <p>1698 Bonanza Street<br></br>Walnut Creek, CA </p>
           <p id="socialLinks">
             <a href="https://www.instagram.com/hair_by_clare_/"><SlSocialInstagram /></a>
             <Link to="/contact"><GoMail /></Link>  
