@@ -23,12 +23,8 @@ function PageFooter() {
           <p>Visit me at <a href="https://www.stemsalon.com/">Stem Salon</a>.</p>
           <p>1698 Bonanza Street Walnut Creek, CA </p>
           <p id="socialLinks">
-            <a href="https://www.instagram.com/hair_by_clare_/"><SlSocialInstagram />
-</a>
-            <Link to="/contact"><GoMail />
-
-
-</Link>  
+            <a href="https://www.instagram.com/hair_by_clare_/"><SlSocialInstagram /></a>
+            <Link to="/contact"><GoMail /></Link>  
           </p>
         </div>
 
