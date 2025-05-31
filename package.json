@@ -2,7 +2,7 @@
   "name": "hair-by-clare-static-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cethatch.github.io/hair-by-clare-static/",
+  "homepage": "https://cethatch.github.io/hair-by-clare-react-static",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
