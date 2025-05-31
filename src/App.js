@@ -1,6 +1,6 @@
 // Import dependencies
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 // Import Components, styles, media
 import PageHeader from './components/PageHeader.js';
@@ -16,7 +16,7 @@ import ContactPage from './pages/ContactPage.js';
 function App() {
 
   return (
-    <BrowserRouter >
+    <HashRouter >
       <PageHeader />
       <main>
         <section>
@@ -31,7 +31,7 @@ function App() {
 
       <PageFooter />
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
