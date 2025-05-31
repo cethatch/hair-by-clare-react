@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+// Import dependencies
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+// Import Components, styles, media
+import PageHeader from './components/PageHeader.js';
+import PageFooter from './components/PageFooter.js';
+
+// Import pages you have completed:
+import HomePage from './pages/HomePage.js';
+import ServicesPage from './pages/ServicesPage.js';
+import PortfolioPage from './pages/PortfolioPage.js';
+import ContactPage from './pages/ContactPage.js';
+
+// Define the function that renders the content in Routes, using State.
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hair by clare.
-          In main
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter >
+      <PageHeader />
+      <main>
+        <section>
+            <Routes> 
+                <Route path='/' element={ <HomePage />} />
+                <Route path="/services" element={ <ServicesPage />} /> 
+                <Route path="/portfolio" element={<PortfolioPage />} />                 
+                <Route path="/contact" element={<ContactPage />} /> 
+            </Routes>
+          </section>
+      </main>
+
+      <PageFooter />
+
+    </BrowserRouter>
   );
 }
 

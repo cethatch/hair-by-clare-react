@@ -2,30 +2,102 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*   ----- Imports  -----  */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*   ----- Color Variables  -----  */
+:root {
+  --darkBrown: #8a6143;
+  --lightBeige: #f2e9d8;
+  --mustard: #c8a553;
+  --dustyRose: #e5bc9e 
+}
+
+#header {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#footer {
+  background-color: var(--dustyRose);
+  color: var(--darkBrown);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Markazi Text", serif;
+  font-size: larger;
+  align-items: center;
+}
+
+#footer div {
+  margin: 0% 5%;
+}
+
+#socialLinks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: x-large;
+  gap: 15px;
+}
+
+/* Targeting the img tag globally or specifically within the HeaderLogo component */
+#header img {
+  width: 250px;
+  height: auto;
+}
+
+#footer img {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;    /* Stack the items vertically */
+    align-items: center;       /* Center the items */
+  }
+
+  #pageHeader img {
+    width: 100px;
+  }
+}
+
+.globalNav {
+  font-family: "Markazi Text", serif;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--darkBrown);
+}
+
+.globalNav a{
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--lightBeige);
+}
+
+
+.logo {
+  width: 150px;                 /* Set the logo size */
+  height: auto;                 /* Maintain aspect ratio */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
