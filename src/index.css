@@ -1,13 +1,329 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Space+Grotesk&display=swap');
+
+:root {
+  --darkBrown: #8a6143;
+  --lightBeige: #f2e9d8;
+  --mustard: #c8a553;
+  --dustyRose: #e5bc9e;
+
+  --header-height: 9vh;
+  
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--lightBeige);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--lightBeige);
+}
+
+body {
+  background-color: var(--lightBeige);
+}
+
+header {
+  box-sizing: border-box;
+  padding-top: calc(20px + env(safe-area-inset-top));
+  background-color: var(--lightBeige);
+  font-family: Aboreto, Markazi;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-items: center;
+  align-items: center;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: var(--dustyRose);
+  color: var(--darkBrown);
+  font-family: 'Boska-Regular';
+  letter-spacing: 0.02rem;
+  font-size: clamp(1rem, 2dvw, 1.25rem);
+  position: static;
+  left: 0;
+  bottom: 0;
+  padding: 3%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-section-1 {
+  line-height: 1.5;
+  text-align:center;
+
+  div {
+    margin-top: 1rem;
+  }
+  p + p {
+    margin-top: 1rem;
+  }
+}
+
+.footer-section-2 {
+  div {
+    padding-top: 30px;
+  }
+  line-height: 1.5;
+
+  p + p {
+    margin-top: 1rem;
+  }
+}
+
+.footer-section-3 {
+  width: 85%;
+  max-width: 400px;
+}
+
+iframe {
+  height: 260px;
+  width: 100%;
+}
+
+.footer-socials-container {
+  display: inline-flex;   /* shrink-wraps to the child */
+  align-items: center;    /* centers the icon if needed */
+  line-height: 0;         /* removes extra vertical space */
+  padding: 0;             /* no clickable padding unless you want it */
+  gap: 35px;
+}
+
+.footer-socials {
+  width: 30px;   /* or whatever size you want */
+  height: 30px;
+  display: block;
+}
+
+.footer-logo {
+  width: clamp(7rem, 11dvw, 40rem);
+  height: auto;
+}
+
+header a, 
+header a:visited {
+  color: var(--darkBrown);
+  text-decoration: none;
+  position: relative; 
+  font-size: 1.25rem;
+  outline: none; /* Remove default focus outline */
+}
+
+header a::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5em;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--darkBrown);
+  transform: scaleX(0); 
+  transform-origin: left;
+  transition: transform 200ms ease-in-out;
+}
+
+/* Keep focus for keyboard users */
+header a:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* Hover effect */
+header a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Current page stays underlined - NavLink automatically adds 'active' class */
+header a.current-page::after {
+  transform: scaleX(1);
+}
+
+
+footer a, a:visited {
+  color: var(--darkBrown);
+}
+
+.header-logo {
+  width: clamp(13rem, 13dvw, 20rem);
+  height: auto;
+}
+
+@media (max-width: 699px) {
+
+  header {
+    padding-top: 10px;
+    height: var(--header-height);
+    background-color: var(--lightBeige);
+    padding-top: env(safe-area-inset-top);
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    z-index: 1001;
+  }
+
+  .header-logo {
+    width: clamp(5rem, 25dvw, 50rem);
+    height: auto;
+    grid-column: 2 / span 2;
+  }
+
+  .menu-icon-wrapper {
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-icon {
+    width: 35px;
+    height: 2px;
+    background-color: var(--darkBrown);
+    position: relative;
+    transition: all 0.3s ease;
+    transform-origin: center;
+  }
+  
+  .menu-icon::before,
+  .menu-icon::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: var(--darkBrown);
+    transition: all 0.3s ease;
+    transform-origin: center;
+  }
+  .menu-icon::before {
+    top: -10px;
+  }
+  
+  .menu-icon::after {
+    top: 10px;
+  }
+  
+  .menu-icon.open {
+    background-color: transparent;
+  }
+  
+  .menu-icon.open::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  .menu-icon.open::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  .mobile-menu-overlay {
+    position: fixed;
+    top: var(--header-height, 80px);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--lightBeige);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), 
+                visibility 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .mobile-menu-overlay.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .mobile-menu-content {
+    background-color: var(--lightBeige);
+    height: 100%;
+    padding: 2rem;
+    opacity: 0;
+    transition: opacity 0.6s ease-out;
+    height: 100%;
+  }
+
+  .mobile-nav {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    gap: 8dvh;
+    font-family: Aboreto, Markazi;
+    font-size: clamp(1rem, 9dvw, 2rem);
+    overflow: scroll;
+
+    a, a:visited {
+      color: var(--darkBrown);
+      text-decoration: none;
+    }
+    
+  }
+
+  .mobile-menu-overlay.open .mobile-menu-content {
+    opacity: 1;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  footer {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-section-1 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    gap: 10px;
+
+  }
+
+  .footer-section-2 {
+    text-align: center;
+  }
+
+  .footer-section-3 {
+    text-align: center;
+    padding-bottom: 4dvh;
+    /* width: 75%; */
+    p {
+      margin-top: 30px;
+    }
+    p + p {
+      margin-top: 1rem;
+      margin-bottom: 30px;
+    }
+  }
+
+  iframe {
+    width: 100%;
+    height: 275px;
+  }
+
+  .footer-socials {
+    height: 35px;
+    width: 35px;
+  }
+
+  .footer-logo {
+    height: clamp(5rem, 10dvh, 8rem);
+    width: auto;
+  }
+
 }
