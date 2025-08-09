@@ -16,7 +16,7 @@ import ContactPage from './pages/ContactPage';
 function App() {
 
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="/hair-by-clare-react">
       <PageHeader />
       <main>
             <Routes> 
