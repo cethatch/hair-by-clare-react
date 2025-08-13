@@ -1,8 +1,8 @@
 {
-  "name": "hair-by-clare-static-webapp",
+  "name": "hair-by-clare-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cethatch.github.io/hair-by-clare-react",
+  "homepage": "https://cethatch.github.io/hair-by-clare-react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -42,6 +42,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "http-proxy-middleware": "^3.0.5",
+    "netlify-cli": "^23.1.3"
   }
 }

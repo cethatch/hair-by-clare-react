@@ -17,7 +17,7 @@ function HomePage() {
 
                 <div className="home-hero-img">
                     <h1 className="home-hero-text-line-2">—but better.</h1>
-                    <LinkButton to='https://www.musesalonwc.com/pages/appointments' className='book-button nav-button'>Book Now</LinkButton>
+                    <LinkButton to='https://www.musesalonwc.com/pages/appointments' className='home-hero-button book-button nav-button'>Book Now</LinkButton>
                 </div>
 
                 <div className="home-hero-description">
