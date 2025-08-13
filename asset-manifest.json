@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/hair-by-clare-react/static/css/main.42c38ad9.css",
-    "main.js": "/hair-by-clare-react/static/js/main.6b53ad73.js",
-    "static/js/453.3632ca2d.chunk.js": "/hair-by-clare-react/static/js/453.3632ca2d.chunk.js",
+    "main.css": "/hair-by-clare-react/static/css/main.7cc37bb8.css",
+    "main.js": "/hair-by-clare-react/static/js/main.5f78b984.js",
+    "static/js/453.5bb8c7a4.chunk.js": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js",
     "static/media/about-me-1500x2200.jpg": "/hair-by-clare-react/static/media/about-me-1500x2200.4ccf934964d6d59065b1.jpg",
     "static/media/julian-myles-2YGrbLlbz6Y-unsplash-desktop-2880x1923.jpg": "/hair-by-clare-react/static/media/julian-myles-2YGrbLlbz6Y-unsplash-desktop-2880x1923.a28749e8daedaa05f5f3.jpg",
     "static/media/Boska-VariableItalic.ttf": "/hair-by-clare-react/static/media/Boska-VariableItalic.a12d56276172412bdaae.ttf",
+    "static/media/duncan-shaffer-uzNMkQdowKE-unsplash-1500x1000px.jpg": "/hair-by-clare-react/static/media/duncan-shaffer-uzNMkQdowKE-unsplash-1500x1000px.6b8630dd5af01f093f76.jpg",
     "static/media/Boska-Variable.ttf": "/hair-by-clare-react/static/media/Boska-Variable.6ade964e37e4a7df55a9.ttf",
     "static/media/Melodrama-Variable.ttf": "/hair-by-clare-react/static/media/Melodrama-Variable.94cb5d31e2ef87b79578.ttf",
     "static/media/GeneralSans-VariableItalic.ttf": "/hair-by-clare-react/static/media/GeneralSans-VariableItalic.37a2c9e4ec944dec5059.ttf",
@@ -41,6 +42,7 @@
     "static/media/GeneralSans-Semibold.ttf": "/hair-by-clare-react/static/media/GeneralSans-Semibold.f6a5bacab0316e8117bb.ttf",
     "static/media/GeneralSans-Extralight.ttf": "/hair-by-clare-react/static/media/GeneralSans-Extralight.e9e1615018c62dee6364.ttf",
     "static/media/GeneralSans-Bold.ttf": "/hair-by-clare-react/static/media/GeneralSans-Bold.148ea237c2c383c0be34.ttf",
+    "static/media/checkered-divider-full.svg": "/hair-by-clare-react/static/media/checkered-divider-full.fef33e62c3e9066a85fd.svg",
     "static/media/Boska-VariableItalic.woff2": "/hair-by-clare-react/static/media/Boska-VariableItalic.f7d93d893842b49c7695.woff2",
     "static/media/Boska-VariableItalic.woff": "/hair-by-clare-react/static/media/Boska-VariableItalic.a193ee364d2704c4d9c2.woff",
     "static/media/Boska-Variable.woff2": "/hair-by-clare-react/static/media/Boska-Variable.acc64ffdc9d815cbfe4c.woff2",
@@ -93,6 +95,7 @@
     "static/media/GeneralSans-ExtralightItalic.woff": "/hair-by-clare-react/static/media/GeneralSans-ExtralightItalic.637cc7b537db1b5556d0.woff",
     "static/media/Boska-Extralight.woff2": "/hair-by-clare-react/static/media/Boska-Extralight.ba79d64ac67ef5bb0ed0.woff2",
     "static/media/GeneralSans-Extralight.woff": "/hair-by-clare-react/static/media/GeneralSans-Extralight.efc4ce019c1e039a0ca4.woff",
+    "static/media/checkered-divider-mobile.svg": "/hair-by-clare-react/static/media/checkered-divider-mobile.fe4ac093609b41afca70.svg",
     "static/media/logo.svg": "/hair-by-clare-react/static/media/logo.4d2ecce1c4072659b24ff29aef42b68f.svg",
     "static/media/Melodrama-Medium.woff2": "/hair-by-clare-react/static/media/Melodrama-Medium.ba59d4b44d3923da004e.woff2",
     "static/media/Melodrama-Regular.woff2": "/hair-by-clare-react/static/media/Melodrama-Regular.73c0cfae086f2f926c3f.woff2",
@@ -113,16 +116,17 @@
     "static/media/jenna-oslin-MmDO1-ezCE4-unsplash-500x750.jpg": "/hair-by-clare-react/static/media/jenna-oslin-MmDO1-ezCE4-unsplash-500x750.306fbea4474e9a8537ed.jpg",
     "static/media/GeneralSans-Extralight.woff2": "/hair-by-clare-react/static/media/GeneralSans-Extralight.d6a4332df60f058537bf.woff2",
     "static/media/noun-hair-7088600.svg": "/hair-by-clare-react/static/media/noun-hair-7088600.a0240853ef875457593d31d02931479b.svg",
+    "static/media/noun-sun-7902640.svg": "/hair-by-clare-react/static/media/noun-sun-7902640.97e70db188edf4f05645.svg",
     "static/media/noun-hand-soap-7135190.svg": "/hair-by-clare-react/static/media/noun-hand-soap-7135190.1e73368bfa6e094c5ac9953d28696d19.svg",
     "static/media/noun-water-water-1235535.svg": "/hair-by-clare-react/static/media/noun-water-water-1235535.af57624bb4961ac0867ba7fc90d1668e.svg",
     "static/media/hair-color.svg": "/hair-by-clare-react/static/media/hair-color.8ddf03d74ca1a40efc246169e55b9cca.svg",
     "index.html": "/hair-by-clare-react/index.html",
-    "main.42c38ad9.css.map": "/hair-by-clare-react/static/css/main.42c38ad9.css.map",
-    "main.6b53ad73.js.map": "/hair-by-clare-react/static/js/main.6b53ad73.js.map",
-    "453.3632ca2d.chunk.js.map": "/hair-by-clare-react/static/js/453.3632ca2d.chunk.js.map"
+    "main.7cc37bb8.css.map": "/hair-by-clare-react/static/css/main.7cc37bb8.css.map",
+    "main.5f78b984.js.map": "/hair-by-clare-react/static/js/main.5f78b984.js.map",
+    "453.5bb8c7a4.chunk.js.map": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c38ad9.css",
-    "static/js/main.6b53ad73.js"
+    "static/css/main.7cc37bb8.css",
+    "static/js/main.5f78b984.js"
   ]
 }
