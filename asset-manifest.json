@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/hair-by-clare-react/static/css/main.254a6d9f.css",
-    "main.js": "/hair-by-clare-react/static/js/main.5f78b984.js",
+    "main.css": "/hair-by-clare-react/static/css/main.35f905ad.css",
+    "main.js": "/hair-by-clare-react/static/js/main.ccbfe086.js",
     "static/js/453.5bb8c7a4.chunk.js": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js",
     "static/media/about-me-1500x2200.jpg": "/hair-by-clare-react/static/media/about-me-1500x2200.4ccf934964d6d59065b1.jpg",
+    "static/media/358400820___n.jpg": "/hair-by-clare-react/static/media/358400820_18374772787048705_2192595623391599219_n.e473677b0e25d95041ec.jpg",
     "static/media/julian-myles-2YGrbLlbz6Y-unsplash-desktop-2880x1923.jpg": "/hair-by-clare-react/static/media/julian-myles-2YGrbLlbz6Y-unsplash-desktop-2880x1923.a28749e8daedaa05f5f3.jpg",
     "static/media/Boska-VariableItalic.ttf": "/hair-by-clare-react/static/media/Boska-VariableItalic.a12d56276172412bdaae.ttf",
+    "static/media/IMG_1985.JPG": "/hair-by-clare-react/static/media/IMG_1985.929c5de3b0569d8b5f7c.JPG",
+    "static/media/322068901_546100264205441__n.jpg": "/hair-by-clare-react/static/media/322068901_546100264205441_1836984181731726042_n.b32d2268c3c7347bb536.jpg",
     "static/media/duncan-shaffer-uzNMkQdowKE-unsplash-1500x1000px.jpg": "/hair-by-clare-react/static/media/duncan-shaffer-uzNMkQdowKE-unsplash-1500x1000px.6b8630dd5af01f093f76.jpg",
+    "static/media/326636796_118103754508968__n.jpg": "/hair-by-clare-react/static/media/326636796_118103754508968_8523328225438446959_n.93fe5c13f59d5d63730d.jpg",
+    "static/media/323888897_491351396457578__n.jpg": "/hair-by-clare-react/static/media/323888897_491351396457578_6649715844991377196_n.bca3e5383daef3d5f12f.jpg",
     "static/media/Boska-Variable.ttf": "/hair-by-clare-react/static/media/Boska-Variable.6ade964e37e4a7df55a9.ttf",
     "static/media/Melodrama-Variable.ttf": "/hair-by-clare-react/static/media/Melodrama-Variable.94cb5d31e2ef87b79578.ttf",
     "static/media/GeneralSans-VariableItalic.ttf": "/hair-by-clare-react/static/media/GeneralSans-VariableItalic.37a2c9e4ec944dec5059.ttf",
@@ -45,6 +50,7 @@
     "static/media/checkered-divider-full.svg": "/hair-by-clare-react/static/media/checkered-divider-full.fef33e62c3e9066a85fd.svg",
     "static/media/Boska-VariableItalic.woff2": "/hair-by-clare-react/static/media/Boska-VariableItalic.f7d93d893842b49c7695.woff2",
     "static/media/Boska-VariableItalic.woff": "/hair-by-clare-react/static/media/Boska-VariableItalic.a193ee364d2704c4d9c2.woff",
+    "static/media/giorgio-trovato-qrz6s4yDcIM-unsplash-mobile-720x1280.jpg": "/hair-by-clare-react/static/media/giorgio-trovato-qrz6s4yDcIM-unsplash-mobile-720x1280.0b9ae0ac1056aeac4bc5.jpg",
     "static/media/Boska-Variable.woff2": "/hair-by-clare-react/static/media/Boska-Variable.acc64ffdc9d815cbfe4c.woff2",
     "static/media/noun-sun-7902639.svg": "/hair-by-clare-react/static/media/noun-sun-7902639.d6d03f980edb31be6583500babee612f.svg",
     "static/media/Boska-Italic.woff": "/hair-by-clare-react/static/media/Boska-Italic.1692147254f76613fc8d.woff",
@@ -121,12 +127,12 @@
     "static/media/noun-water-water-1235535.svg": "/hair-by-clare-react/static/media/noun-water-water-1235535.af57624bb4961ac0867ba7fc90d1668e.svg",
     "static/media/hair-color.svg": "/hair-by-clare-react/static/media/hair-color.8ddf03d74ca1a40efc246169e55b9cca.svg",
     "index.html": "/hair-by-clare-react/index.html",
-    "main.254a6d9f.css.map": "/hair-by-clare-react/static/css/main.254a6d9f.css.map",
-    "main.5f78b984.js.map": "/hair-by-clare-react/static/js/main.5f78b984.js.map",
+    "main.35f905ad.css.map": "/hair-by-clare-react/static/css/main.35f905ad.css.map",
+    "main.ccbfe086.js.map": "/hair-by-clare-react/static/js/main.ccbfe086.js.map",
     "453.5bb8c7a4.chunk.js.map": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.254a6d9f.css",
-    "static/js/main.5f78b984.js"
+    "static/css/main.35f905ad.css",
+    "static/js/main.ccbfe086.js"
   ]
 }
