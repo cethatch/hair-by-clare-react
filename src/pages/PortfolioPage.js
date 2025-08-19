@@ -22,7 +22,7 @@ function PortfolioPage() {
                     <div className="portfolio-hero-sun-doodle"></div>
 
                 </div>
-                <LinkButton to='https://www.musesalonwc.com/pages/appointments' className='book-button nav-button'>Book Now</LinkButton>
+                <LinkButton to='https://www.musesalonwc.com/pages/appointments' className='book-button nav-button portfolio-book'>Book Now</LinkButton>
 
             </section>
 

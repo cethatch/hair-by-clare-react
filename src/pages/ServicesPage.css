@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Markazi+Text:wght@400..700&display=swap');
+
+.services-hero {
+    box-sizing: border-box;
+    padding: 0 10% 0 2%;
+    margin: 5dvw 0 0 0;
+    width: 100%;
+    background-color: rgba(229, 188, 158, 0.55);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, minmax(50px, 11vw));
+    grid-template-areas: 
+    "heading image"
+    "subheading image"
+    "book image";
+
+    .services-book-button {
+        grid-area: book;
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        height: clamp(10px, 6vw, 65px);
+        font-size: clamp(16px, 2vw, 22px);
+        width: fit-content;
+        background-color: var(--lightBeige);
+    }
+
+    .services-book-button:hover {
+        background-color: var(--dustyRose);
+    }
+}
+
+.services-header {
+    grid-area: heading;
+    font-family: "Aboreto", system-ui;
+    font-size: clamp(1rem, 4dvw, 5rem);
+    color: var(--darkBrown);
+    align-self: center;
+    justify-self: center;
+
+}
+
+.services-subheading {
+    padding: 0 clamp(50px, 5vw, 400px);
+    font-family: 'Boska-Regular', serif;
+    letter-spacing: clamp(1px, 0.2vw, 1rem);
+    grid-area: subheading;
+    color: var(--darkBrown);
+    font-size: clamp(14px, 1.5vw, 5rem);
+    line-height: 1.25;
+
+} 
+
+.services-hero-img {
+    background-image: url('../images/compressed/giorgio-trovato-qrz6s4yDcIM-unsplash-mobile-720x1280.jpg');
+    grid-area: image;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: auto;
+    aspect-ratio: 4 / 5;
+}
+.service-section {
+    margin: 4% 0;
+}
+.services-text-container {
+    padding: 0;
+}
+
+.service-vertical-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .services-text-container {
+        width: 80%;
+        margin: 0 auto 4% auto;
+    }
+}
+
+.service-horizontal-layout {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .services-text-container {
+        margin-right: 5%;
+    }
+
+    .service-img-container img{
+        height: clamp(100px, 40vw, 500px);
+    }
+}
+
+.services-color .service-img-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.services-color img{
+    flex: 1 0 0%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.services-color .img2 {
+    object-position: 50% 40%;
+
+}
+
+.services-subtitle {
+    font-family: 'Aboreto', system-ui;
+    color: var(--darkBrown);
+    font-size: clamp(1.75rem, 2.75dvw, 100px);
+    margin: 0 0 3vw 0;
+}
+
+.services-text-container {
+    margin: 0;
+}
+
+p.services-description, ul.services-bullet-list {
+    font-family: 'GeneralSans-Regular', sans-serif;
+    font-size: clamp(14px, 1.125rem, 22px);
+    color: var(--darkBrown);
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    padding: 0;
+    font-variant: normal;
+}
+
+ul.services-bullet-list li {
+    font-family: 'GeneralSans-Regular', sans-serif;
+    font-size: clamp(14px, 1.125rem, 22px);
+    color: var(--darkBrown);
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    font-variant: normal;
+    padding: 0;
+}
+
+p.services-description {
+    line-height: 1.4;
+    margin: 0 0 3dvw 0;
+}
+
+ul.services-bullet-list {
+    line-height: 1.75;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.single-checkered-border {
+    background-image: url("../images/svgs/checkered-divider-full.svg");
+    height: 7dvw;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 699px) {
+    .services-hero {
+        margin-top: clamp(10px, 8vw 30px);
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.25fr 0.25fr 0.5fr;
+        align-content: center;
+        justify-content: center;
+        padding: 4vw 0;
+        grid-template-areas:
+        "heading"
+        "subheading"
+        "image";
+
+        .services-header {
+            grid-area: heading;
+            font-size: clamp(30px, 8vw, 90px);
+        }
+
+        .services-subheading {
+            padding: 0;
+            width: 85%;
+            margin: 5vw auto;
+            font-size: clamp(14px, 1rem, 30px);
+            text-align: justify;
+        }
+
+        .services-hero-img {
+            background-position: center 47%;
+            height: 30cqh;
+            min-height: 250px;
+            width: 100%;
+            grid-area: image
+        }
+
+        .services-book-button {
+            grid-area: image;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            z-index: 10;  
+            align-self: end;
+            margin-bottom: 10vw;
+            height: clamp(50px, 9vw, 75px); 
+            width: fit-content;
+            padding: 0 15px;
+        }
+    }
+    
+    /* Reset margin and padding */
+    .service-horizontal-layout, .service-vertical-layout .services-text-container {
+        padding: 0;
+        margin: 0;
+        width: 100%
+    }
+
+    .service-section {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 10dvw auto;
+    }
+    
+    p.services-description, ul.services-bullet-list {
+        font-family: 'GeneralSans-Regular', sans-serif;
+        line-height: 1.6;
+        font-size: clamp(14px, 1.125rem, 22px);
+        color: var(--darkBrown);
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+        margin-top: 5%;
+    }
+
+    ul.services-bullet-list li {
+        font-size: clamp(14px, 1.125rem, 22px);
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+        font-variant: normal;
+
+    }
+
+    .service-img-container {
+        display: flex;
+        margin-top: 7%;
+        img {
+            flex-grow: 1;
+            min-height: 300px;
+            width: 100%; /* Ensure the image fills its container horizontally */
+            height: 100%; /* Ensure the image fills its container vertically */
+            object-fit: cover; /* Or 'cover', depending on desired behavior */
+        }
+    }
+
+    .img2, .img3 {
+        display: none;
+    }
+
+    .single-checkered-border {
+        background-image: url('../images/svgs/checkered-divider-mobile.svg');
+        height: 15vw;
+    }
+}
+

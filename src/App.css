@@ -2,7 +2,7 @@
 /*   ----- Imports  -----  */
   @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Markazi+Text:wght@400..700&display=swap');
 
-/*   ----- Color Variables  -----  */
+  /*   ----- Color Variables  -----  */
 :root {
   --darkBrown: #8a6143;
   --lightBeige: #f2e9d8;
@@ -52,7 +52,7 @@
 }
 
 .home-hero-text-line-2 {
-  font-family: Boska-BlackItalic;
+  font-family: 'Boska-BlackItalic', serif;
   font-style: italic;
   font-weight: bolder;
   font-size: clamp(2rem, 6vh + 6vw, 6rem);
@@ -71,10 +71,10 @@
   box-sizing: border-box;
   padding: clamp(1rem, 1vw, 3rem) 2rem;
   background-color: var(--mustard);
-  color: var(--lightBeige);
+  color: var(--darkBrown);
   font-family: Aboreto, system-ui;
   text-decoration: none;
-  font-size: clamp(14px, 3vw, 22px);
+  font-size: clamp(18px, 3vw, 22px);
   text-align: center;
   white-space: nowrap;
   border-radius: 2rem;
@@ -343,7 +343,8 @@
 
   .portfolio-hero-last-word {
     text-transform: lowercase;
-    font-family: Boska-BlackItalic;
+    font-family: 'Boska-BlackItalic', serif;
+    font-style: italic;
     color: var(--mustard);
     font-size: clamp(1rem, 12dvw, 200px);
     letter-spacing: 0.01rem;
@@ -390,13 +391,13 @@
     box-sizing: border-box;
     line-height: 1.3;
     font-size: clamp(16px, 1.5dvw, 40px);
-    font-family: Boska-Regular;
+    font-family: 'Boska-Regular';
     color: var(--darkBrown);
     margin: clamp(10px, 6dvw, 200px) 4vw 0 14vw;
   }
 
   
-  a {
+  .portfolio-book {
     position: absolute;
     align-self: end;
     left: calc(50% - var(--button-width) / 2);
@@ -424,23 +425,20 @@
 }
 
 .portfolio-gallery {
+  --min-column-width: clamp(200px, 20vw, 300px);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(clamp(200px, 20vw, 300px), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--min-column-width), 1fr));
   justify-items: center;
   gap: 3dvw;
-  margin: clamp(3rem, 10dvw, 7rem) 7dvw;
+  margin: clamp(3rem, 10vw, 7rem) 7dvw;
+}
 
-  .gallery-img-container {
-    width: 100%;    
-    aspect-ratio: 4/5;
-  }
-
-  img {
-    height: 100%;
+.gallery-img-container img {
+  aspect-ratio: 4/5;
+  height: 100%;
     width: 100%;
     object-fit: cover;
     display: block;
-    }
 }
 
 @media (max-width: 699px) {
@@ -456,7 +454,7 @@
   }
   
   .home-hero-text-line-2 {
-    font-family: Boska-BlackItalic;
+    font-family: 'Boska-BlackItalic', serif;
     font-style: italic;
     font-size: clamp(2rem, 11cqw, 6rem);
     text-wrap: nowrap;
@@ -603,7 +601,7 @@
 
     .portfolio-hero-heading-mobile {
       display: block;
-      font-family: Melodrama-Regular;
+      font-family: 'Melodrama-Regular';
       text-transform: uppercase;
       text-align: left;
       text-wrap: nowrap;
@@ -617,7 +615,8 @@
   
     .portfolio-hero-last-word {
       text-transform: lowercase;
-      font-family: Boska-BlackItalic;
+      font-family: 'Boska-BlackItalic', serif;
+      font-style: italic;
       color: var(--mustard);
       font-size: clamp(1rem, 20dvw, 200px);
       letter-spacing: 0.01rem;
@@ -669,7 +668,7 @@
       margin: clamp(10px, 15dvw, 200px) 3rem;
     }
   
-    a {
+    .portfolio-book {
       position: absolute;
       left: calc(50% - var(--button-width) / 2);
     }

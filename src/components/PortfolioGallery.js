@@ -30,7 +30,9 @@ function PortfolioGallery() {
     return (
       <div className="portfolio-gallery" id="portfolio-gallery">
         {images.map(image => (
-          <div className="gallery-img-container"><img key={image.public_id} src={image.url} alt={image.public_id} /></div>
+          <div key={image.public_id} className="gallery-img-container">
+            <img src={image.url} alt={image.public_id} />
+          </div>
         ))}
       </div>
     );

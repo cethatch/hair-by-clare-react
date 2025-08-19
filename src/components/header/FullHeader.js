@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link, useLocation} from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '../Logo';
-
 
 const FullHeader = () => {
   const location = useLocation();
-  
+
   const handleLinkClick = (e) => {
     e.target.blur();
   };
 
   return (
-    <header>
+    <header className='full-header'>
       <Link 
         to="/" 
         className={`nav-link ${location.pathname === '/' ? 'current-page' : ''}`}

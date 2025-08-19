@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FullHeader from './FullHeader';
 import MobileHeader from './MobileHeader';
 import useWindowWidth from '../../utilities/useWindowWidth';

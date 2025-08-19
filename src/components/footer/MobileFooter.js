@@ -30,8 +30,10 @@ function MobileFooter() {
                     allowFullScreen>
                 </iframe>
 
-                <p>Website created by <a href=''>cethatch</a>.</p>
-                <p>Resource attributions <a href=''>here</a>.</p>
+                <div className="mobile-footer-credit-container">
+                    <p>Website created by <a href=''>cethatch</a>.</p>
+                    <p>Resource attributions <a href=''>here</a>.</p>
+                </div>
             </div>
         </footer>
     );
