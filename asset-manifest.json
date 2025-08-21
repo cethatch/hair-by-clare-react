@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hair-by-clare-react/static/css/main.078f67a0.css",
-    "main.js": "/hair-by-clare-react/static/js/main.027501d3.js",
+    "main.css": "/hair-by-clare-react/static/css/main.1bc7c167.css",
+    "main.js": "/hair-by-clare-react/static/js/main.58acf24b.js",
     "static/js/453.5bb8c7a4.chunk.js": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js",
     "static/media/about-me-1500x2200.jpg": "/hair-by-clare-react/static/media/about-me-1500x2200.4ccf934964d6d59065b1.jpg",
     "static/media/358400820___n.jpg": "/hair-by-clare-react/static/media/358400820_18374772787048705_2192595623391599219_n.e473677b0e25d95041ec.jpg",
@@ -83,6 +83,7 @@
     "static/media/GeneralSans-LightItalic.woff": "/hair-by-clare-react/static/media/GeneralSans-LightItalic.b3f37670fedaabb03a25.woff",
     "static/media/GeneralSans-Italic.woff": "/hair-by-clare-react/static/media/GeneralSans-Italic.38fe83c7db536c3d94dd.woff",
     "static/media/GeneralSans-MediumItalic.woff": "/hair-by-clare-react/static/media/GeneralSans-MediumItalic.be50bba710738fc9f7a6.woff",
+    "static/media/checkered-divider-full-half.svg": "/hair-by-clare-react/static/media/checkered-divider-full-half.3a2cdb1ba2481338ed47.svg",
     "static/media/GeneralSans-Semibold.woff": "/hair-by-clare-react/static/media/GeneralSans-Semibold.f7917c077957122793f6.woff",
     "static/media/Boska-Bold.woff2": "/hair-by-clare-react/static/media/Boska-Bold.8024a3617849b61b9195.woff2",
     "static/media/Boska-Light.woff2": "/hair-by-clare-react/static/media/Boska-Light.4ad062e110831feed3a8.woff2",
@@ -127,12 +128,12 @@
     "static/media/noun-water-water-1235535.svg": "/hair-by-clare-react/static/media/noun-water-water-1235535.af57624bb4961ac0867ba7fc90d1668e.svg",
     "static/media/hair-color.svg": "/hair-by-clare-react/static/media/hair-color.8ddf03d74ca1a40efc246169e55b9cca.svg",
     "index.html": "/hair-by-clare-react/index.html",
-    "main.078f67a0.css.map": "/hair-by-clare-react/static/css/main.078f67a0.css.map",
-    "main.027501d3.js.map": "/hair-by-clare-react/static/js/main.027501d3.js.map",
+    "main.1bc7c167.css.map": "/hair-by-clare-react/static/css/main.1bc7c167.css.map",
+    "main.58acf24b.js.map": "/hair-by-clare-react/static/js/main.58acf24b.js.map",
     "453.5bb8c7a4.chunk.js.map": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.078f67a0.css",
-    "static/js/main.027501d3.js"
+    "static/css/main.1bc7c167.css",
+    "static/js/main.58acf24b.js"
   ]
 }
