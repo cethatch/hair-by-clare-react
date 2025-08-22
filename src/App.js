@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Import Components, styles, media
 import PageHeader from './components/header/PageHeader';
 import PageFooter from './components/footer/PageFooter';
+import ScrollToTop from './utilities/ScrollToTop';
 
 // Import pages you have completed:
 import HomePage from './pages/HomePage';
@@ -17,9 +18,11 @@ function App() {
 
   return (
     <BrowserRouter basename="/hair-by-clare-react/">
+      <ScrollToTop />
       <PageHeader />
       <main>
             <Routes> 
+
                 <Route path='/' element={ <HomePage />} />
                 <Route path="/services" element={ <ServicesPage />} /> 
                 <Route path="/portfolio" element={<PortfolioPage />} />                 

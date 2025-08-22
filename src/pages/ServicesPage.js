@@ -1,6 +1,6 @@
 import React from "react";
 import LinkButton from "../components/LinkButton";
-import './ServicesPage.css'; // ← Add this import
+import './ServicesPage.css';
 
 
 import haircutImg from "../images/compressed/323888897_491351396457578_6649715844991377196_n.jpg";

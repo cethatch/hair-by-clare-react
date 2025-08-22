@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Markazi+Text:wght@400..700&display=swap');
+
+.contact-top-banner-container {
+    font-family: 'Aboreto', system-ui;
+    color: var(--darkBrown);
+    font-size: clamp(2rem, 3.75vw, 5rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vw;
+    height: 6vw;
+    width: 100%;
+    gap: 10px
+}
+
+.checkered-border-mobile {
+    display: none;
+}
+
+.checkered-border-half {
+    background-image: url("../images/svgs/checkered-divider-full-half.svg");
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    flex: 1 0 0%;
+}
+
+.contact-page-content-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 5vw;
+    margin: 5vw 0;
+}
+
+section.form-container, section.details-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-subtitle {
+    font-family: 'Aboreto', system-ui;
+    color: var(--darkBrown);
+    font-size: clamp(1.5rem, 2.5vw, 5rem);
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+}
+
+.salon-details-container, .form-container {
+    font-family: 'Boska-Regular';
+    color: var(--darkBrown);
+    letter-spacing: 0.05rem;
+    text-align: center;
+
+    line-height: 1.5;
+}
+
+.salon-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.salon-details-container a{
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+
+.salon-details-container a:visited{
+    color: var(--darkBrown)
+}
+
+h3.salon-header {
+    font-size: clamp(1rem, 1.5rem, 3rem);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.contact-input-field {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-family: 'GeneralSans-Regular';
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+    color: var(--darkBrown);
+
+}
+
+.contact-input-field:focus-visible{
+    outline: solid var(--mustard);
+    
+}
+
+.contact-input-field::placeholder{
+    color: gray;
+    
+}
+
+.message-input {
+    height: 15rem;
+    resize: none;
+}
+
+.submit-form-button {
+    margin-top: 2rem;
+    height: 40px;
+    padding: 0 25px;
+    text-wrap: nowrap;
+    width: fit-content;
+    align-self: center;
+    background-color: var(--mustard);
+    color: var(--darkBrown);
+    font-family: 'Aboreto';
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    outline: none;
+    border: 0;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+
+}
+.submit-form-button:hover {
+    background-color: var(--dustyRose);
+
+    cursor: pointer;
+}
+
+.submit-form-button:focus-visible {
+    background-color: var(--dustyRose);
+    outline: solid var(--mustard) 1px;
+    outline-offset: 2px;
+}
+
+.loading-icon {
+    color: var(--darkBrown);
+    margin-right: 10px;
+    display: inline-block;
+    animation: spin 1.1s cubic-bezier(0.25, 0.1, 0.25, 1.0) infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.error {
+    font-family: 'GeneralSans-Regular', sans-serif;
+    color: darkred;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.error-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    font-style: bold;
+}
+
+.success-message-container {
+    margin: 50px 0;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px
+}
+
+.confirmation-message.success {
+    font-size: 20px;
+    color: var(--darkBrown);
+    text-wrap: wrap;
+}
+
+.success-icon {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    color: var(--dustyRose)
+}
+
+@media (max-width: 699px) {
+    .contact-top-banner-container {
+        flex-direction: column;
+        height: fit-content
+    }
+    .checkered-border-half {
+        display: none
+    }
+
+    .checkered-border-mobile {
+        display: inline-block;
+        background-image: url('../images/svgs/checkered-divider-mobile.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 17vw;
+        width: 100%;
+    }
+
+    .contact-page-content-container {
+        flex-direction: column;
+    }
+
+    .contact-subtitle {
+        margin-bottom: 1rem;
+    }
+
+    .contact-form {
+        width: 85%;
+        gap: 1.25rem;
+        max-width: 525px;
+        margin-bottom: 1rem
+    }
+
+    .details-container {
+        padding: 1rem 0 5rem 0;
+    }
+}
