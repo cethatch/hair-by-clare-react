@@ -12,6 +12,7 @@ import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
+import AttributionsPage from './pages/AttributionsPage';
 
 // Define the function that renders the content in Routes, using State.
 function App() {
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/services" element={ <ServicesPage />} /> 
                 <Route path="/portfolio" element={<PortfolioPage />} />                 
                 <Route path="/contact" element={<ContactPage />} /> 
+                <Route path="/resource-attributions" element={ <AttributionsPage /> } />
             </Routes>
       </main>
 

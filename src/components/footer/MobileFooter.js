@@ -31,8 +31,8 @@ function MobileFooter() {
                 </iframe>
 
                 <div className="mobile-footer-credit-container">
-                    <p>Website created by <a href=''>cethatch</a>.</p>
-                    <p>Resource attributions <a href=''>here</a>.</p>
+                    <p>Website created by <a href='https://www.linkedin.com/in/cethatcher/'>cethatch</a>.</p>
+                    <p>Resource attributions <Link to='/resource-attributions'>here</Link>.</p>
                 </div>
             </div>
         </footer>
