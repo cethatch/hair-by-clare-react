@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Hair by Clare – Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, client-facing portfolio website for **Clare Cullen**, a California-based hairstylist specializing in sunkissed blonding and natural-looking extensions.  
 
-## Available Scripts
+This project demonstrates how a professional website can be built and deployed **completely for free**, using readily available free-tier technologies, while still supporting dynamic features like a photo gallery and contact form.  
 
-In the project directory, you can run:
+👉 **Live Demo:** [Hair by Clare](https://cethatch.github.io/hair-by-clare-react/)  
+👉 **Figma Design File:** [View Design](https://www.figma.com/design/ntk5cX8xqbCTrSbFaQke9j/HairByClare_v1?node-id=0-1&t=VqagWMJValS9KhuP-1)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Project Overview
+The site showcases Clare’s portfolio, services, and contact information in a clean, responsive design.  
+- **Goal:** Create a professional hairstylist website without monthly hosting costs.  
+- **Approach:** Use free-tier services (GitHub Pages, Netlify Functions, Cloudinary, Google Sheets) to cover hosting, storage, and secure form handling.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** JavaScript (Create React App), HTML, CSS (Flexbox + CSS Grid for responsive layouts)  
+- **Design:** Figma (mockups translated to functional components)  
+- **Serverless Functions:** Node.js (hosted on Netlify)  
+- **Hosting:** GitHub Pages (frontend), Netlify (backend functions)  
+- **Media Storage:** Cloudinary (easy photo management for non-technical users)  
+- **Data Handling:** Google Sheets (private storage for contact form submissions)  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Homepage** introducing Clare’s brand and services  
+- **Portfolio Gallery** showcasing styles with Cloudinary-hosted images  
+- **Services Page** with pricing and details  
+- **Contact Page** with secure form submissions to Google Sheets  
+- **Booking Link** to external scheduling service  
+- **Responsive Layout** tested on a wide variety of screen sizes and browsers  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎨 Design & UX Choices
+- Prioritized **mobile responsiveness** for users browsing on phones.  
+- Tested across screen sizes and browsers to ensure cross-platform compatibility.  
+- Minimal, image-focused design to highlight Clare’s work.  
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Deployment
+- **Frontend:** [GitHub Pages](https://pages.github.com/)  
+- **Serverless Functions:** [Netlify Functions](https://docs.netlify.com/functions/overview/)  
+- **Media:** [Cloudinary](https://cloudinary.com/) for portfolio image hosting  
+- **Form Handling:** Submissions sent to a Netlify function → stored securely in Google Sheets  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💡 Challenges & Learnings
+- **Cross-browser styling:** Gained confidence in handling CSS grid, flexbox, and ensuring layouts worked in Safari, Chrome, and Firefox.  
+- **CORS issues:** Learned how to configure Netlify Functions with strict headers (specific origins and methods only), avoiding insecure `*` policies.  
+- **Frontend-to-backend security:** Practiced keeping API secrets safe by moving sensitive logic to serverless functions.  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔮 Next Steps
+Planned improvements:  
+- Add **fade-in animations** for main images to improve UX.  
+- Build a **React-based resource attributions page** that pulls data from Google Sheets.  
+- Implement an **email digest system** to send Clare periodic summaries of new client inquiries.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 👩‍💻 About the Developer
+This project was built at the request of Clare and as an opportunity to strengthen my frontend development skills. It allowed me to practice React, responsive CSS, and integrating multiple free-tier cloud services into a seamless client-ready solution.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Contact Me**  
+📧 Email: [cethatch@gmail.com](mailto:cethatch@gmail.com)  
+💼 LinkedIn: [linkedin.com/in/cethatcher](https://www.linkedin.com/in/cethatcher/)  
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
