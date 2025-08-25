@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hair-by-clare-react/static/css/main.698d3dc2.css",
+    "main.css": "/hair-by-clare-react/static/css/main.3388f3d5.css",
     "main.js": "/hair-by-clare-react/static/js/main.f9673b47.js",
     "static/js/453.5bb8c7a4.chunk.js": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js",
     "static/media/about-me-1500x2200.jpg": "/hair-by-clare-react/static/media/about-me-1500x2200.4ccf934964d6d59065b1.jpg",
@@ -128,12 +128,12 @@
     "static/media/noun-water-water-1235535.svg": "/hair-by-clare-react/static/media/noun-water-water-1235535.af57624bb4961ac0867ba7fc90d1668e.svg",
     "static/media/hair-color.svg": "/hair-by-clare-react/static/media/hair-color.8ddf03d74ca1a40efc246169e55b9cca.svg",
     "index.html": "/hair-by-clare-react/index.html",
-    "main.698d3dc2.css.map": "/hair-by-clare-react/static/css/main.698d3dc2.css.map",
+    "main.3388f3d5.css.map": "/hair-by-clare-react/static/css/main.3388f3d5.css.map",
     "main.f9673b47.js.map": "/hair-by-clare-react/static/js/main.f9673b47.js.map",
     "453.5bb8c7a4.chunk.js.map": "/hair-by-clare-react/static/js/453.5bb8c7a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.698d3dc2.css",
+    "static/css/main.3388f3d5.css",
     "static/js/main.f9673b47.js"
   ]
 }
